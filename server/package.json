@@ -1,0 +1,11 @@
+{
+    "name": "SDHHSASurveyServer",
+    "description": "A noSQL server to store created surveys and completed survey responses",
+    "author": "Reza Fatahi <aug2uag@gmail.com>",
+    "dependencies": {
+        "express": ">= 1.2.0",
+        "mongodb": "x",
+        "express-cors": "x"
+    },
+    "engine": "node 0.10.x"
+}

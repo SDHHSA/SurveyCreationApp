@@ -1,0 +1,35 @@
+# OS X
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+profile
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+
+#Node
+@@ -1,4 +1,5 @@
+  lib-cov
+ +lcov.info
+  *.seed
+  *.log
+  *.csv
+ @@ -11,5 +12,6 @@ pids
+  logs
+  results
+  build
+ +.grunt
+  
+  node_modules
